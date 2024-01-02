@@ -34,3 +34,11 @@ function get_weather_condition(response) {
   let weather_condition = document.querySelector("#condition");
   weather_condition.innerHTML = response.data.condition.description;
 }
+function get_humidity(response) {
+  let humidity = document.querySelector("#humidity");
+  humidity.innerHTML = response.data.temperature.humidity;
+}
+function get_wind(response) {
+  let wind = document.querySelector("#wind");
+  wind.innerHTML = response.data.wind.speed;
+}
