@@ -70,12 +70,13 @@ strong {
   color: violet;
 }
 #temp-value {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   color: violet;
 }
 
 #celsius {
   color: violet;
+  font-weight: 400;
   font-size: 25px;
 }
