@@ -38,7 +38,7 @@ function get_date(date) {
 
 function get_weather(response) {
   let temperature_value = document.querySelector("#temp-value");
-  temperature_value.innerHTML = response.data.temperature.current;
+  temperature_value.innerHTML = Math.round(response.data.temperature.current);
 }
 function get_weather_condition(response) {
   let weather_condition = document.querySelector("#condition");
