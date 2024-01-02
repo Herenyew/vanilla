@@ -11,7 +11,7 @@ a {
 }
 
 .whole-box {
-  background-color: hsl(300, 23%, 94%);
+  background-color: hsl(0, 0%, 96%);
   display: block;
   margin: 50px auto;
   max-width: 600px;
