@@ -54,7 +54,7 @@ function get_wind(response) {
 }
 function get_icon(response) {
   let iconElement = document.querySelector(".icon");
-  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" id="icon" />`;
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
 }
 let form = document.querySelector(".search-form");
 form.addEventListener("submit", search);
