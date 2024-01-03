@@ -58,3 +58,19 @@ function get_icon(response) {
 }
 let form = document.querySelector(".search-form");
 form.addEventListener("submit", search);
+
+let week = ["Sun", "Mon", "Tue", "Wed", "Thu"];
+let sum = ``;
+week.forEach(function (day) {
+  let weekElement = document.querySelector(".weekly_forecast");
+  sum =
+    sum +
+    `
+ <div id="each_day">
+   <div>${day}</div>
+   <div>🌤️</div>
+   <span>15°C</span> <span>12°C</span>
+ </div>`;
+});
+let weekElement = document.querySelector(".weekly_forecast");
+weekElement.innerHTML = sum;

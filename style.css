@@ -58,6 +58,10 @@ footer {
 .temperature {
   display: flex;
 }
+.weekly_forecast {
+  display: flex;
+  justify-content: space-between;
+}
 .icon {
   position: relative;
   top: -5px;
