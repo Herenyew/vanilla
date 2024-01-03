@@ -92,7 +92,7 @@ function displayForecast(response) {
     }
   });
 
-  let forecastElement = document.querySelector("weekely_forcast");
+  let forecastElement = document.querySelector(".weekely_forecast");
   forecastElement.innerHTML = forecastHtml;
 }
 let searchFormElement = document.querySelector("#search-form");
