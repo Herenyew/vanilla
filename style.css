@@ -80,7 +80,3 @@ strong {
   font-weight: 400;
   font-size: 25px;
 }
-.wholeweek {
-  display: flex;
-  justify-content: space-between;
-}
