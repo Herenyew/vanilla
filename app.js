@@ -58,3 +58,15 @@ function get_icon(response) {
 }
 let form = document.querySelector(".search-form");
 form.addEventListener("submit", search);
+
+let week = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+week.forEach(function (day) {
+  let wholeweek = document.querySelector(".wholeweek");
+  let whole_week = `<div class="whole week">
+          <div class="day">${day}</div>
+          <div class="icon">🌤️</div>
+          <span class="max"><strong>19º</strong></span>
+          <span class="min">12º</span>
+        </div>`;
+  wholeweek.innerHTML = whole_week + wholeweek.innerHTML;
+});
